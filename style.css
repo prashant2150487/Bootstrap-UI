@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Pacifico|Righteous|Roboto+Condensed|Ubuntu');
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato';
+    overflow-x: hidden;
+}
+
+.navbar-brand {
+    font-family: 'Pacifico';
+    font-size: 35px;
+    color: lightcoral;
+}
+
+.nav-link {
+    font-family: 'Roboto Condensed';
+    margin: 15px;
+    font-size: 16px;
+    color: black;
+}
+
+.nav-link:hover {
+    color: rgb(26, 212, 53);
+}
+
+.active .nav-link {
+    color: rgb(128, 240, 175);
+}
+
+.menu-right-btn {
+    padding: 13px 46px;
+    margin: 3%;
+    background-color: transparent;
+    transition: all 300ms ease-in;
+}
+
+.menu-right-btn:hover {
+    background-color: aqua;
+    color: white;
+}
+
+.site-content {
+    background-image: url(/image/image2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.site-title {
+    margin-top: 30%;
+    margin-bottom: 6%;
+    font-size: 50px;
+    text-align: center;
+
+}
+
+.site-title,
+.site-desc {
+    color: white;
+    font-family: 'Righteous';
+}
+
+.site-desc {
+    text-align: center;
+    padding: 2%;
+
+}
+
+.site-btn1 {
+    margin-top: 6%;
+    margin-left: 20%;
+    margin-bottom: 30%;
+    margin-right: 2%;
+    background-color: black;
+    color: white;
+
+}
+
+.site-btn2 {
+    margin-top: 6%;
+    /* margin-left: 20%; */
+    margin-bottom: 30%;
+    background-color: black;
+
+    background-color: black
+}
+
+.heading1,
+.heading2,
+.para-12 {
+    margin-top: 2%;
+    text-align: center;
+    margin-bottom: 4%;
+}
+
+.card-text,
+.card-title {
+    text-align: center;
+    color: black;
+}
+
+.para-1 .card {
+    width: 20rem;
+    justify-content: center;
+}
+
+.section-2 .container-fluid {
+    background-image: url("./image/image3.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.section-2 .heading-1 {
+    color: whitesmoke;
+    margin-top: 12%;
+    margin-bottom: 4%;
+    font-family: 'Righteous';
+    /* margin-left: 35%; */
+    text-align: center;
+    width: 80%;
+    margin-left: 12%;
+}
+
+.section-2 .para-1 {
+    color: whitesmoke;
+    font-family: 'Ubantu';
+
+    /* margin-left: 35%; */
+    text-align: center;
+    width: 80%;
+    font-size: 18px;
+    margin-bottom: 6%;
+    margin-left: 12%;
+}
+
+.section-2 .butanz {
+    font-family: 'Ubantu';
+    margin-bottom: 2%;
+    color: whitesmoke;
+    width: 10%;
+    margin-left: 47%;
+    font-size: 18px;
+    margin-bottom: 6%;
+    padding: 10px;
+
+}
+
+.section-3 {
+    margin-top: 6%;
+}
+
+.section-3 i {
+    color: lightseagreen;
+    margin-right: 2%;
+}
+
+.section-4 {
+    margin-top: 5%;
+
+}
+
+.section-4 .col-md-7 {
+    margin-left: 0px;
+    margin-top: 7%;
+    margin-bottom: 7%;
+    margin-right: 0px;
+
+}
+
+.section-4 .col-md-5 {
+
+    margin-top: 7%;
+    margin-bottom: 7%;
+
+}
+
+.section-4 .head {
+    margin-bottom: 4px;
+}
+
+.section-4 a {
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    background-color: green;
+    padding: 3px 9px;
+    text-align: center;
+    border-radius: 12px;
+    margin-top: 5px;
+
+}
+
+.section-4 .para-1 {
+    color: white;
+    margin-top: 9%;
+    font-size: 20px;
+    font-family: 'Roboto Condensed';
+}
+
+.section-5 .social {
+    margin-top: 10px;
+    font-size: 30px;
+
+}
+
+.section-5 .social .fb {
+    color: rgb(66, 03, 178);
+}
+
+.section-5 .social .yt {
+    color: rgb(255, 0, 0);
+}
+
+.section-5 .social .tw {
+    color: rgb(85, 172, 178);
+}
+
+.section-5 .form .text {
+    display: inline;
+    margin-top: 5%;
+
+}
+
+.section-5 .form .text {
+    width: 30%;
+    padding: 6%;
+
+}
+
+.section-5 .form .btn2 {
+    font-family: 'Righteous';
+}
+
+@media only screen and(max-width:768px) {
+    .section-1 .card {
+        width: 1rem;
+    }
+
+    .section-4 .col-md-7 {
+        width: 350px;
+    }
+}
+
+@media only screen and(max-width:320px) {
+    .site-content .site-title {
+        font-size: 38px;
+        padding-left: 15%;
+    }
+}
